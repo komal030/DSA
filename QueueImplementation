@@ -7,6 +7,7 @@ public class ArrayQueue {
     int capacity;
 
     public ArrayQueue(int n) {
+        capacity=n;
         arr = new int[n];
     }
 
